@@ -24,5 +24,5 @@ void HandleOutput(tflite::ErrorReporter* error_reporter, float y_value)
     am_hal_gpio_pinconfig(AM_BSP_GPIO_LED_BLUE, g_AM_HAL_GPIO_OUTPUT_12);
     is_initialized = true;
   }
-
+ // finally we can implement servo control to automatically cover the farm with greenhouse material so that they can withstand cold temperatrue.
 }
